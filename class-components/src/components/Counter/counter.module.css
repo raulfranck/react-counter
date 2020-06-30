@@ -1,0 +1,72 @@
+.container {
+  padding: 25px;
+  display: flex;
+  margin: 15px;
+}
+
+.counterValue {
+  padding: 15px;
+  font-size: 1.2em;
+
+  font-family: Consolas, monospace;
+}
+
+.divSteps {
+  margin-left: 50px;
+  border: 1px solid rgb(155, 155, 155);
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonMenos {
+  background-color: #f66666;
+  border: none;
+  border-radius: 8px;
+  color: white;
+
+  font-size: 1.2em;
+  font-weight: bold;
+  
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+
+  transition: 300ms;
+}
+
+.buttonMenos:hover {
+  background-color: #ec4040;
+}
+
+.buttonMenos:focus {
+  background-color: #ec4040;
+}
+
+.buttonMais {
+  background-color: #93ee90;
+  border: none; 
+  border-radius: 8px;
+  color: white;
+
+  font-size: 1.2em;
+  font-weight: bold;
+
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: 300ms;
+  
+}
+
+.buttonMais:hover {
+  background-color: #50eb4b;
+}
+
+.buttonMais:focus {
+  background-color: #50eb4b;
+}
